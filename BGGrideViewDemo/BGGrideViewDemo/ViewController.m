@@ -35,7 +35,6 @@ static const NSInteger kRowCount = 4;
     [grideView registerNib:[UINib nibWithNibName:[BGImageCollectionViewCell cellIdentifier] bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:[BGImageCollectionViewCell cellIdentifier]];
     
     [self.view addSubview:grideView];
-    [grideView reloadData];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

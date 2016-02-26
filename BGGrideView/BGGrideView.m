@@ -77,7 +77,7 @@
         self.grideLayout = layout;
         
         UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:self.bounds collectionViewLayout:layout];
-        collectionView.backgroundColor = [UIColor grayColor];
+        collectionView.backgroundColor = [UIColor clearColor];
         collectionView.pagingEnabled = NO;
         collectionView.directionalLockEnabled = YES;
         
